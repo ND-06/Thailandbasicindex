@@ -5,6 +5,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
 font-family: urw gothic l, sans-serif;
 } 
+
 body {
   margin: 0;
   font-family: urw gothic l, sans-serif;
@@ -16,13 +17,9 @@ body {
   border-radius: 40%;
   padding-right: 0;
   padding-left: 15px;
-
-
 }
 
-.avatarname {
-
-  
+.avatarname {  
 }
 
 .navbar-logo {
@@ -31,21 +28,17 @@ margin-bottom: 10px;
 display: inline;
 position: absolute;
 top: 10px;
-
 }
-
 
 .websitename {
   font-size: 1.15em;
   text-align: left;
   margin-left: 30px;
   color: white;
-
 }
 
 a {
   text-decoration: none;
-  color: bl;
 }
 
 a:hover {
@@ -53,9 +46,7 @@ a:hover {
 }
 
 button:hover {
-
-text-decoration: blink;
-
+  text-decoration: blink;
 }
 
 button {
@@ -93,11 +84,11 @@ img {
    margin-top: 5px;
 }
 .card {
-  box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 8px 4px 8px 4px rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 300px;
   margin-right: 50px;
-  margin: 3px;
+  margin: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -214,6 +205,7 @@ img {
   padding: 6px 12px;
   border: 1px solid black;
   border-top: none;
+  border-bottom: none;
 } 
 
 .footer {
