@@ -54,7 +54,7 @@ a:hover {
 
 button:hover {
 
-
+text-decoration: blink;
 
 }
 
@@ -98,7 +98,7 @@ img {
 /* Add some padding inside the card container */
 .container {
   padding: 52px 16px;
-    color: #044F67;
+  color: #044F67;
 }
 
 
@@ -121,17 +121,18 @@ img {
 }
 
 .navbar-right .about {
-  color: white;
-  right: 50px;
-  position: relative;
-  bottom: -17px;
-  right: 400px;
+ color: white;
+ right: 50px;
+ position: relative;
+ bottom: -17px;
+ right: 400px;
 }
 
 .navbar {
   background: #43C6AC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding: 10px 10px 0 10px;
   color: white;
 
@@ -158,18 +159,24 @@ img {
 }
 
 .text-block {
-  width: 20%;
+  width: 60%;
   float: right;
   font-size: 1.1em;
   color: #044F67;
-  margin-right: 10px;
+  margin-right: 240px;
+ 
+
 }
 
-  /* Style the tab */
+ /* Style the tab */
 .tab {
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background: #43C6AC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: black;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -197,14 +204,17 @@ img {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-top: none;
+
 } 
 
 .footer {
 background: #43C6AC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+top: 50px;
 color: white;
 
 }
@@ -225,6 +235,8 @@ color: white;
   text-align: center;
   color: #044F67;
 }
+
+
 
 
 
