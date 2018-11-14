@@ -3,7 +3,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-font-family: urw gothic l, sans-serif;
+  font-family: urw gothic l, sans-serif;
 } 
 
 body {
@@ -19,15 +19,13 @@ body {
   padding-left: 15px;
 }
 
-.avatarname {  
-}
 
 .navbar-logo {
-padding-top: 15px;
-margin-bottom: 10px;
-display: inline;
-position: absolute;
-top: 10px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+  display: inline;
+  position: absolute;
+  top: 10px;
 }
 
 .websitename {
@@ -50,38 +48,69 @@ button:hover {
 }
 
 button {
-text-decoration: none;
-color: white;
-border: none;
-background: transparent;
-padding-right: 15px;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background: transparent;
+  padding-right: 15px;
 }
 
+.islandbutton {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: solid 1px #044F67;
+  border-radius: 7%;
+  background: #044F67;
+  padding: 5px;
+  margin-left: 85px;
+}
 
+.foodbutton {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: solid 1px #044F67;
+  border-radius: 7%;
+  background: #044F67;
+  padding: 5px;
+  margin-left: 85px;
+}
+
+.Nightlifebutton {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: solid 1px #044F67;
+  border-radius: 7%;
+  background: #044F67;
+  padding: 5px;
+  margin-left: 85px;
+}
 
 button:hover {
-    background-color: white; 
-    color: black;
+  background-color: white; 
+  color: #044F67;
 }
 
 
 img {
-    border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .title, .text{
-   font-family: urw gothic l, sans-serif;
-   font-size: 1.1em;
-   color: #044F67;
+  font-family: urw gothic l, sans-serif;
+  font-size: 1.1em;
+  color: #044F67;
 }
  
 .title{
-   margin-bottom: 10px;
-   color: #044F67;
+  margin-bottom: 10px;
+  color: #044F67;
 }
  
 .text{
-   margin-top: 5px;
+  margin-top: 5px;
 }
 .card {
   box-shadow: 8px 4px 8px 4px rgba(0,0,0,0.2);
@@ -104,7 +133,6 @@ img {
 .card img{
   width:100%;
 }
-
 
 .navbar-right .home {
   color: white;
@@ -164,11 +192,8 @@ img {
   font-size: 1.1em;
   color: #044F67;
   margin-right: 240px;
- 
-
 }
 
- /* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -178,7 +203,6 @@ img {
   color: black;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
   float: left;
@@ -189,17 +213,16 @@ img {
   transition: 0.3s;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
+
 .tab button.active {
   background-color: #ccc;
 }
 
-/* Style the tab content */
+
 .tabcontent {
   display: none;
   padding: 6px 12px;
@@ -209,7 +232,7 @@ img {
 } 
 
 .footer {
-  background: #43C6AC;  /* fallback for old browsers */
+  background: #43C6AC;
   background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;

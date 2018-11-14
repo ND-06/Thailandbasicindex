@@ -5,69 +5,82 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 </head>
+
 <body>
 
 <div class="navbar">
 
-<div class="navbar-logo">
- 
-  <a href="#default" class="websitename">Thailand Official Webguide</a>
-  
-</div>
+  <div class="navbar-logo">
+    <a href="#default" class="websitename">Thailand Official Webguide</a>
+  </div>
 
-<div class="navbar-right">
+  <div class="navbar-right">
+    <a href="#home" class="home"> <button type="buttonhome">Home</button></a>
+    <a href="https://www.thehackingproject.org/" class="contact"><button type="buttoncontact">THP</button></a>
+    <a href="https://www.google.fr" class="about"><button type="buttonabout">Questions</button></a>
+    <h4 class="avatarname">Nat</h4>
+    <img src="Images/avatar.png" title="avatar" class="avatar">
+  </div>
 
-  <a href="#home" class="home"> <button type="buttonhome">Home</button></a>
-  <a href="https://www.thehackingproject.org/" class="contact"><button type="buttoncontact">THP</button></a>
-  <a href="https://www.google.fr" class="about"><button type="buttonabout">Questions</button></a>
-  <h4 class="avatarname">Nat</h4>
-  <img src="Images/avatar.png" title="avatar" class="avatar">
-
-</div>
 </div>
 
 <div class="main">
    
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Island')"id="defaultOpen">Island</button>
-  <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
-  <button class="tablinks" onclick="openCity(event, 'Nightlife')">Nightlife</button>
-</div>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Island')"id="defaultOpen">Island</button>
+    <button class="tablinks" onclick="openCity(event, 'Food')">Food</button>
+    <button class="tablinks" onclick="openCity(event, 'Nightlife')">Nightlife</button>
+    <button class="tablinks" onclick="openCity(event, 'Profile')">Profile</button>
+  </div>
 
-<div id="Island" class="tabcontent">
-  <div class="card">
-   <img src="Images/thailand.jpg">
-   <div class="description">
-      <h4 class="title"><b>Nangyuan Island</b></h4> 
-         <p class="text">Nangyuan island is a beautiful island located in the Andaman Sea. You will find white sand and amazing pristine water!</p>
+  <div id="Island" class="tabcontent">
+    <div class="card">
+      <img src="Images/thailand.jpg">
+        <div class="description">
+          <h4 class="title"><b>Nangyuan Island</b></h4> 
+          <p class="text">Nangyuan island is a beautiful island located in the Andaman Sea. You will find white sand and amazing pristine water!</p>
+          <form><button class="islandbutton" formaction="https://wikitravel.org/en/Ko_Nang_Yuan">Show more</button>
+          </form>
+        </div>
+    </div>
+  </div>
 
-   </div>
-</div>
-</div>
+  <div id="Food" class="tabcontent">
+    <div class="card">
+      <img src="Images/thai.jpg">
+        <div class="description">
+          <h4 class="title"><b>Thai Food</b></h4> 
+          <p class="text">The Thai food is one of the best food in the world. Pad Thai is the dish Number 1 from thailand, but you will also enjoy to eat Papaya Salad and delicious Fried Rice ! </p> 
+          <form><button class="foodbutton" formaction="https://en.wikipedia.org/wiki/Thai_cuisine">Show more</button>
+          </form>
+        </div>
+    </div>
+  </div>
 
-<div id="Food" class="tabcontent">
-  <div class="card">
-   <img src="Images/thai.jpg">
-   <div class="description">
-      <h4 class="title"><b>Thai Food</b></h4> 
-         <p class="text">The Thai food is one of the best food in the world. Pad Thai is the dish Number 1 from thailand, but you will also enjoy to eat Papaya Salad and delicious Fried Rice ! </p> 
-   </div>
-</div>
-</div>
+  <div id="Nightlife" class="tabcontent">
+    <div class="card">
+      <img src="Images/fullmoon.jpg">
+        <div class="description">
+          <h4 class="title"><b>Full Moon Party</b></h4> 
+          <p class="text">Full Moon Party is one of the biggest party in the world ! During this amazing event, you will be able to dance till the sunrise with more than 30.000 people !</p>
+          <form><button class="Nightlifebutton" formaction="https://en.wikipedia.org/wiki/Full_Moon_Party">Show more</button>
+          </form> 
+        </div>
+    </div>
+  </div>  
 
-<div id="Nightlife" class="tabcontent">
-  <div class="card">
-   <img src="Images/fullmoon.jpg">
-   <div class="description">
-      <h4 class="title"><b>Full Moon Party</b></h4> 
-         <p class="text">Full Moon Party is one of the biggest party in the world ! During this amazing event, you will be able to dance till the sunrise with more than 50.000 people !</p> 
-   </div>
-</div>
-</div>  
-  
+  <div id="Profile" class="tabcontent">
+    <div class="card">
+      <img src="Images/avatar.png">
+        <div class="description">
+          <h4 class="title"><b>My Profile</b></h4> 
+          <p class="text">I love wolves !</p> 
+        </div>
+    </div>
+  </div>   
+
 <div class="footer">
   <p class="author">Made by Nathaniel Debache with ❤️ </p>  
-
 
   <div class="icons">
       <a href="https://www.facebook.com/">
@@ -82,10 +95,7 @@
       <a href="https://linkedin.com">
         <img src="Images/linkedin.png" alt="linkedin logo">
       </a>
-</div>
-  
-</div>
-
+  </div>
 </div>
 
 <script src="MyScript.js"></script>
