@@ -25,14 +25,23 @@ body {
   margin-bottom: 10px;
   display: inline;
   position: absolute;
-  top: 10px;
+  top: -5px;
 }
 
-.websitename {
-  font-size: 1.15em;
+.logoweb {
+  float: left;
+  margin-bottom: -10px;
+  display: inline;
+  position: relative;
+  margin-bottom: 30px;  
+}
+
+a.websitename {
+  font-size: 1.20em;
   text-align: left;
   margin-left: 30px;
   color: white;
+  margin-top: 10px;
 }
 
 a {
